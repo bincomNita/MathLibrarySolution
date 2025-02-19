@@ -6,12 +6,12 @@ namespace MathLibrary.Tests
     {
         [Fact]
         public void Square_ShouldReturnCorrectSquare()
-        {           
+        {
             int number = 5;
             int expected = 25;
-         
+
             int result = MathUtils.Square(number);
-        
+
             Assert.Equal(expected, result);
         }
         [Fact]
